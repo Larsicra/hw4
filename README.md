@@ -1,5 +1,7 @@
 完成了单线程`Runtime`，并增加了多线程运行任务的能力
 
+`multi.rs`为单线程Runtime的内容，`single.rs`为多线程Runtime，虽然重复很多但还是分了两个文件。
+
 `main.rs`同时包括了单线程、双线程`Runtime`的测试，编译运行可得如下结果：
 ![1](1.png)
 
